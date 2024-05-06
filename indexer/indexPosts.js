@@ -1,5 +1,7 @@
+// indexer/indexPosts.js
 const { api } = require('../services/ghostService');
 const { index } = require('../services/algoliaService');
+const logger = require('../config/logger'); // Import logger
 
 async function indexPosts() {
   try {
@@ -17,14 +19,14 @@ async function indexPosts() {
       };
       index.saveObject(record)
         .then(() => {
-          console.log(`Indexed post "${post.title}"`);
+          logger.info(`Indexed post "${post.title}"`);
         })
         .catch(error => {
-          console.error('Error indexing post:', error);
+          logger.error('Error indexing post:', error);
         });
     });
   } catch (error) {
-    console.error('Error retrieving posts:', error);
+    logger.error('Error retrieving posts:', error);
   }
 }
 
