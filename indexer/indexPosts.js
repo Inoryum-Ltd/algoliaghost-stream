@@ -14,7 +14,11 @@ async function indexPosts() {
         image: post.feature_image,
         excerpt: post.excerpt,
         url: post.url,
-        tags: post.tags.map(tag => tag.name),
+        tags: post.tags.map(tag => ({
+          name: tag.name,
+          url: tag.url, // Add tag URL
+          description: tag.description // Add tag description if exists
+        })),
         date: post.published_at
       };
       index.saveObject(record)
