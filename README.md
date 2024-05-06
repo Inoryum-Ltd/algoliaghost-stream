@@ -79,6 +79,7 @@ This integration tool relies on the following dependencies:
 - `body-parser`: Middleware for parsing incoming request bodies in Express.
 - `dotenv`: A zero-dependency module for loading environment variables from a `.env` file into `process.env`.
 - `express`: Fast, unopinionated, minimalist web framework for Node.js.
+- `Winston`: For Logging.
 
 ## License
 
