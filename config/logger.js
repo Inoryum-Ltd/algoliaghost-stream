@@ -32,7 +32,7 @@ const logger = winston.createLogger({
       datePattern: 'YYYY-MM-DD',
       zippedArchive: true,
       maxSize: '20m', // Maximum size of the log file before rotation
-      maxFiles: '14d' // Retain logs for 14 days
+      maxFiles: '7d' // Retain logs for 14 days
     })
   ]
 });
