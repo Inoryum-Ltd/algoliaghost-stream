@@ -59,7 +59,7 @@ In your Ghost Admin panel:
 
 * Go to "Integrations"
 * Add a new custom integration.
-* Set the "Target URL" to http://<your-server-address>:3000/ghost-webhook. Replace <your-server-address> with your actual server domain or IP address.
+* Set the "Target URL" to http://your-server-address:3000/ghost-webhook. Replace `your-server-address` with your actual server domain or IP address.
 
 ## Usage
 

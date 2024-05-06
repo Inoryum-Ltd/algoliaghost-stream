@@ -1,6 +1,6 @@
 {
   "name": "algoliaghost-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Integration tool for syncing Ghost CMS content with Algolia by Inoryum",
   "main": "app.js",
   "scripts": {
