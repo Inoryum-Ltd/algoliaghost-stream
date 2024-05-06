@@ -66,6 +66,10 @@ In your Ghost Admin panel:
 Once set up, new or updated posts on your Ghost site will automatically be reflected in your Algolia search index.
 Implement a search interface on your website using Algolia's frontend libraries to leverage the synchronized data.
 
+## Professional Ghost CMS Services
+
+If you're looking for expert assistance with Ghost setup, development, customization, or want to maximize the potential of your Ghost site, Inoryum offers a full range of Ghost CMS services. Visit to learn more: https://inoryum.com/ghost-cms-services/
+
 ## Contributing
 
 We welcome contributions to improve this project! Please open issues for bug reports or feature suggestions, and feel free to submit pull requests.
